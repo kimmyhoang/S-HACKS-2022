@@ -35,7 +35,9 @@ article {
 
 #question-cd {
   background-color:white;
-  color:black
+  color:black;
+  padding-bottom: 15px;
+
 }
 
 .form-check-input{
@@ -94,6 +96,7 @@ article {
 .btn{
   background-color: var(--dark-green);
   color: white;
+  
 }
 
 .card {
