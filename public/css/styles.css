@@ -1,48 +1,89 @@
 :root {
-    /*this styling will be applied globally*/
-    --light-green: #B1D7B4;
-    --dark-green: #7FB77E;
-    --light-beige: #F7F6DC;
-    --light-orange: #FFC090;
+  /*this styling will be applied globally*/
+  --light-green: #B1D7B4;
+  --dark-green: #7FB77E;
+  --light-beige: #F7F6DC;
+  --light-orange: #FFC090;
 }
 
 .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
+#game-bg {
+  background-color: var(--light-green);
+}
+
+#card-top {
+  padding-top: 50px;
+}
+
+#card-top-2 {
+  padding-top: 25px;
+}
+
+#question-cd {
+  background-color:white;
+  color:black
+}
+
+.form-check-input{
+  color: var(--dark-green);
+}
 
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-}
-.navbar-nav  li a:hover {
-    color: var(--dark-green) !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  font-family: "Segoe UI";
+  /* background-color:  var(--light-beige); */
+
 }
 
-.navbar-header {
-  color: var(--light-green);
+.form-check{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
 }
+
+.btn{
+  background-color: var(--dark-green);
+  color: white;
+}
+
+.card {
+  background-color: var(--dark-green);
+  color: white;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.navbar-nav li a:hover {
+  color: var(--dark-green) !important;
+}
+
 .footer-padding {
-	padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .footer {
-	position: absolute;
-	text-align: center;
-	bottom: 0;
-	width: 100%;
-	height: 60px;
-	background-color: var(--dark-green);
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: var(--dark-green);
 }
 
 .footer p {
-	margin-top: 25px;
-	font-size: 12px;
+  margin-top: 25px;
+  font-size: 12px;
   color: var(--light-beige);
 }
