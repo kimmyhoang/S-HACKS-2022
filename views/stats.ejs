@@ -1,0 +1,45 @@
+
+<%- include("partials/header") -%>
+
+<script>
+
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+
+</script>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#myModal">
+  Final Answer
+</button>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="stats">Statistics</h5>
+      </div>
+      <div class="modal-body stats">
+        <img height=100 src="/src/line-green.jpg" alt="">
+        <br>
+        <br>
+        <h2>75</h2>
+        <p>Win %</p>
+        <h2>8</h2>
+        <p>Current Streak</p>
+        <h2>27</h2>
+        <p>Max Streak</p>
+
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-success col" data-bs-dismiss="modal">Share</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include("partials/footer") -%>

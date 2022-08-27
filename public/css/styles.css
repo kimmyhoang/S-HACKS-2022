@@ -106,3 +106,12 @@ article {
   background-color: var(--light-beige);
   color: black;
 }
+
+.stats {
+  text-align: center;
+}
+
+#stats {
+  text-align: center;
+  color: var(--dark-green);
+}
