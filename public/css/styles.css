@@ -137,13 +137,11 @@ article {
   color: black;
 }
 
-#btn {
-  margin-left: 121px;
-  margin-top: 1px;
+.stats {
+  text-align: center;
 }
-  
-.divider{
-  width:10px;
-  height:auto;
-  display:inline-block;
+
+#stats {
+  text-align: center;
+  color: var(--dark-green);
 }
