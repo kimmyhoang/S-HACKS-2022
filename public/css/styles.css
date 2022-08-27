@@ -87,3 +87,11 @@
   font-size: 12px;
   color: var(--light-beige);
 }
+
+.odd {
+  background-color: var(--light-green);
+}
+
+.even {
+  background-color: var(--light-beige);
+}
