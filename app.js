@@ -14,6 +14,16 @@ app.get("/", function(req,res){
 });
 
 
+app.get("/learn", function(req,res){
+  res.render("learn");
+});
+
+
+app.get("/game", function(req,res){
+  res.render("game");
+});
+
+
 app.listen(3000, function() {
   console.log("Server started on port 3000");
 });
