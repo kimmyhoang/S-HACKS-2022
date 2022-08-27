@@ -21,6 +21,10 @@ app.get("/game", function(req,res){
   res.render("game");
 });
 
+app.get("/learn", function(req,res){
+  res.render("learn");
+});
+
 app.post("/game", function(req,res){
 
   // if(userAns === correctAns){
@@ -29,8 +33,8 @@ app.post("/game", function(req,res){
   //   res.redirect("/game");
   //  code to make another attempt
   // }
-
 });
+
 
 
 app.listen(3000, function() {

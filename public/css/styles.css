@@ -61,6 +61,36 @@ article {
   text-align: left;
 }
 
+#box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  width: 1300px;
+  height: 500px;
+}
+
+#alignment1 {
+  text-align: left;
+}
+
+#alignment2 {
+  text-align: right;
+}
+
+#alignment3 {
+  text-align: left;
+  text-align: top;
+}
+
+#alignment4 {
+  text-align: center;
+  text-align: top;
+}
+
+#alignment5 {
+  text-align: right;
+}
+
 .btn{
   background-color: var(--dark-green);
   color: white;
@@ -105,4 +135,15 @@ article {
 .even {
   background-color: var(--light-beige);
   color: black;
+}
+
+#btn {
+  margin-left: 121px;
+  margin-top: 1px;
+}
+  
+.divider{
+  width:10px;
+  height:auto;
+  display:inline-block;
 }
